@@ -9,14 +9,14 @@ The dataset includes 4,767 movie records with columns such as title, genre, popu
 `Movies Recommendation.csv`
 
 ## Usage
-- ## 1. Run the Notebook in Google Colab or locally:
+### 1. Run the Notebook in Google Colab or locally:
 
     **Load the dataset**.
     **Preprocess the data**.
     **Use the recommendation function to input a movie title and get suggestions**.
-Example:
+### 2. Example:
 
-`python`
+```python
 recommended_movies = recommend_movies('Inception', model, movies_df)
 if not recommended_movies.empty:
     print(recommended_movies[['Movie_Title', 'Movie_Genre']])
