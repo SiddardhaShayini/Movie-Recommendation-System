@@ -10,10 +10,9 @@ The dataset includes 4,767 movie records with columns such as title, genre, popu
 
 ## Usage
 ### 1. Run the Notebook in Google Colab or locally:
-
-    **Load the dataset**.
-    **Preprocess the data**.
-    **Use the recommendation function to input a movie title and get suggestions**.
+   - Load the dataset.
+   - Preprocess the data.
+   - Use the recommendation function to input a movie title and get suggestions.
 ### 2. Example:
 
 ```python
